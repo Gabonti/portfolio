@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: relative;
+    width: 945px;
+    margin: 0 auto;
+}
+
+/* First section */
+.main {
+    height: 768px;
+    padding: 33px 0 104px 0;
+}
+
+.header .header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header_nav .header_nav_link {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration-line: none;
+}
+.header .header_nav .header_nav_link:hover {
+    color: black;
+}
+
+.main .header_divider {
+    width: 945px;
+    height: 1px;
+    background-color: #828282;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.main .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main .information .name {
+    width: 123px;
+    height: 118px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.main .information .profession {
+    width: 155px;
+    height: 44px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.main .information .language {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+}
+
+.main .main_img {
+    margin: 50px 60px;
+}
+/* The end of first section */
+
+/* Second section */
+.about_me {
+    height: 506px;
+    padding: 120px 0 107px 0;
+    background-color: #F6F6F6;
+}
+
+.about_me .about_me_title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.about_me .about_me_text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 485px;
+}
+/* The end of second section */
+
+/* Third section */
+.skills {
+    height: 610px;
+    padding: 91px 0 110px 0;
+}
+
+.skills .skills_title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills .skills_text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 69px;
+}
+
+.skills .skills_wrapper {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skills_wrapper .skills_icon {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 166px;
+    height: 206px;
+}
+
+.skills .skills_wrapper .skills_icon .skills_icon_descr {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+/* The end of third section */
+
+/* Fourth section */
+.portfolio {
+    height: 800px;
+    padding: 113px 0 96px 0;
+    background-color: #F6F6F6;
+}
+
+.portfolio .portfolio_title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.portfolio_block {
+	position: relative;
+	margin: 25px 25px;
+}
+
+.portfolio_block img {
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio_carousel {
+	position: relative;
+}
+
+.portfolio_carousel .slick-prev, .slick-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -45px;
+	border: none;
+	background: #F6F6F6;
+}
+
+.portfolio_carousel .slick-prev img, .slick-next img {
+    width: 30px;
+	height: 40px;
+}
+
+.portfolio_carousel .slick-next {
+	left: auto;
+	right: -45px;
+}
+
+.portfolio_carousel .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+	list-style-type: none;
+}
+.portfolio_carousel .slick-dots li {
+	margin: 0 0.25rem;
+}
+.portfolio_carousel .slick-dots button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: #1EACC7;
+	text-indent: -9999px;
+}
+.portfolio_carousel .slick-dots li.slick-active button {
+	background-color: #FF5656;
+}
+/* The end of fourth section */
+
+/* Footer */
+.footer {
+    height: 350px;
+    padding: 100px 0;
+}
+
+.footer .contacts {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.footer .contacts_text {
+    display: block;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer .send_message {
+    display: block;
+    margin: 0 auto;
+    margin-top: 51.5px;
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    border-radius: 22px;
+    margin-top: 30px;
+}
+
+.footer .footer_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 86px;
+}
+
+.footer .conclusion {
+    display: block;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 46px;
+}
+
+.footer .popup_container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+.footer .popup {
+	position: relative;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	height: 250px;
+	width: 500px;
+	border-radius: 15px;
+}
+
+.footer .popup .popup-content{
+	text-align: center;
+}
+
+.footer .popup .popup-content p{
+	display: block;
+    font-family: 'Gilroy-Medium';
+    font-size: 25px;
+    text-align: center;
+    color: #070707;
+	margin-top: 20px;
+}
+
+.footer .popup .popup-content img{
+	height: 60px;
+	width: 60px;
+	margin: 60px 20px;
+}
+
+.footer .popup .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+  
+.footer .popup .close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* The end of footer */
+
